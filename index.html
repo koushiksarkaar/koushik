@@ -6,23 +6,22 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon-152x152.png">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
 </head>
 <body>
-   
+
    <p>My name is Koushik</p>
-   <img src="/assets/KoushikProfile.png" alt="Profile picture" >
+   <p>Today's date and time:</p>
+
+   <p id="dt"></p>   
+   <img src="/assets/KoushikProfile.PNG" alt="Profile picture" />
 
    <script>
     const d = new Date();
     document.getElementById("dt").innerHTML = d;
     </script>
-    <p>Today's date and time:</p>
-
-    <p id="dt"></p>    
+ 
 </body>
 </html>
